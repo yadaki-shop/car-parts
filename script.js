@@ -1,3 +1,15 @@
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("Hamed Store آماده است.");
+
+const search = document.getElementById("search");
+
+if(search){
+
+search.addEventListener("keyup", function(){
+
+console.log("جستجو:", search.value);
+
+});
+
+}
+
 });
